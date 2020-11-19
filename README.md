@@ -52,7 +52,7 @@ Test to make sure that it works as expected.
 Notice that the formal and actual parameter types don't match. The expected type of the second parameter is Object 
 (a reference type) and the provided argument is 1 (a primitive value). If you don't know the answer to this question Google the term "Autoboxing".
 
-## Generics
+### Generics
 
 1. Create a copy of the `ObjectPair` class named `Pair`. Refactor this class to use Java generics. 
 Your updated class should make it possible to independently specify the types of the first and second elements.
@@ -63,7 +63,7 @@ Will the resulting code compile? Why do you think generic collection classes are
 4. BONUS QUESTION: List some reasons that the Pair class might be preferable to the ObjectPair class. 
 Can you think of any situations where the ObjectPair class might be preferable?
 
-## Iterators
+### Iterators
 
 Now that you have a completed generic Pair class, create a minimally functioning collection of Pair objects. 
 Open up the following files in your favorite IDE.
@@ -89,9 +89,9 @@ to conform to Pair[]", which can be suppressed using the @SuppressWarnings("unch
 
 3. Finish the addPair method. Return false if the array is already full.
 4. Implement the required Iterator methods. For remove, the Pair should be removed and all of the remaining elements should shift to the left one place.
-5. Throw exceptions as specified in the Java Iterator API.
+5. Throw exceptions as specified in the [Java Iterator API](https://docs.oracle.com/javase/10/docs/api/java/util/Iterator.html).
 
-## Wildcards and Subclasses
+### Wildcards and Subclasses
 
 Open up the following file in a simple text editor like vim, gedit or xed. (Don't open it in Eclipse!)
 
@@ -103,10 +103,12 @@ Comment each assignment statement with either:
 or
 // N (For "Will not compile.")
 
-For those lines that will not compile, include an explanation of the problem. Once you have finished all of the statements, check your answers by attempting to compile the file. Comment out the non-compiling lines before submission.
-Submitting
+For those lines that will not compile, include an explanation of the problem. Once you have finished all of the statements, 
+check your answers by attempting to compile the file. Comment out the non-compiling lines before submission.
 
-## Submit all modified files as a zip file through Autolab:
+## Submitting
+
+Submit all modified files as a zip file through Autolab:
 
 * ObjectPairDriver.java
 * Pair.java
