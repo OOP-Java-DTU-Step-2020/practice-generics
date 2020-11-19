@@ -3,26 +3,27 @@ package org.itstep.step03;
 import java.util.Iterator;
 
 ///**
-// * Iterable collection of Pair objects.
+// * Итерируемая коллекция объектов Pair.
 // *
 // * @author Michael S. Kirkpatrick and Nathan Sprague
 // * @version V1, 8/2017
 // */
 //public class Pairs<K, V> implements Iterable<Pair<K, V>> {
 //
-//    /* Declare a fixed-size array (maximum 10 elements) of Pair objects */
+//    /* TODO: Объявить массив фиксированного размера (максимум 10 элементов) объектов Pair */
 //
 //    /**
-//     * Create a collection that will store items added as pairs.
+//     * Создайте коллекцию, в которой будут храниться элементы, добавленные парами.
 //     */
 //    public Pairs() {
 //    }
 //
 //    /**
-//     * Create a new Pair and add it to the collection if there's space.
+//     * TODO: Создайте новую пару и добавьте ее в коллекцию, если есть место.
 //     *
-//     * @param first  The first object.
-//     * @param second The second object.
+//     * @param first  Первый объект
+//     * @param second Второй объект
+//     * @return true - если пара была добавлена, false - в противном случае
 //     */
 //    public boolean addPair(K first, V second) {
 //        return true;
@@ -35,19 +36,23 @@ import java.util.Iterator;
 //    }
 //
 //    /*
-//     * Implement an Iterator here based on the API documentation at
+//     * TODO: Реализуйте итератор здесь на основе документации API по адресу
 //     * https://docs.oracle.com/javase/10/docs/api/java/util/Iterator.html Throw the exceptions as
 //     * specified
 //     */
 //    private class PairIterator implements Iterator<Pair<K, V>> {
 //
+//        /**
+//         * TODO: Проверить наличие следующего элемента в итераторе
+//         */
 //        @Override
 //        public boolean hasNext() {
 //            throw new UnsupportedOperationException();
 //        }
 //
 //        /**
-//         * Return the next Pair in the iterator.
+//         * TODO: Вернуть следующую пару в итератор.
+//         * @throws NoSuchElementException - если больше нет элементов для итерации
 //         */
 //        @Override
 //        public Pair<K, V> next() {
@@ -55,7 +60,7 @@ import java.util.Iterator;
 //        }
 //
 //        /**
-//         * Remove the previous Pair returned by next() from the LinkedList.
+//         * TODO: Удалите предыдущую пару, возвращенную функцией next()
 //         */
 //        @Override
 //        public void remove() {

@@ -1,7 +1,7 @@
 package org.itstep.step04;
 
 /**
- * Generics Compilation questions.
+ * Обобщения. Вопросы о компиляции
  *
  * @author Nathan Sprague
  * @version V1, 8/2016
@@ -10,11 +10,11 @@ public class CompileDriver {
 
     public static void main(String[] args) {
 
-        Pair<String, Integer> p1;
-        Pair<String, Number> p2;
-        Pair<Object, Object> p3;
-        Pair<?, ?> p4;
-        Pair<?, ? extends Number> p5;
+//        Pair<String, Integer> p1;
+//        Pair<String, Number> p2;
+//        Pair<Object, Object> p3;
+//        Pair<?, ?> p4;
+//        Pair<?, ? extends Number> p5;
 
 //        p1 = new Pair<String, Integer>("A", 7);
 //        int a = p1.getSecond();

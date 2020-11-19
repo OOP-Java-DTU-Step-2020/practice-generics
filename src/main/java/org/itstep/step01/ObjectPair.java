@@ -2,6 +2,8 @@ package org.itstep.step01;
 
 /**
  * Иммутабельный двойной кортеж
+ *
+ * Этот класс редактировать не нужно!!!
  * 
  * @author Nathan Sprague
  * @version V1, 8/2016
