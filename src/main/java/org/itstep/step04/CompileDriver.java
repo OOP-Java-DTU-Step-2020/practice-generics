@@ -10,6 +10,7 @@ public class CompileDriver {
 
     public static void main(String[] args) {
 
+        // TODO: перед удалением комментариев отметьте каждую строчку, где есть присвоение - сокмпилируется ли код или нет
 //        Pair<String, Integer> p1;
 //        Pair<String, Number> p2;
 //        Pair<Object, Object> p3;
