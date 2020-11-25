@@ -139,3 +139,4 @@
 * [CS 240: Algorithms and Data Structures James Madison University, Fall 2020](https://w3.cs.jmu.edu/spragunr/CS240/labs/generics/generics.shtml)
 * [The Java™ Tutorials. Generics](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
 * [Java Records (JEP 359)](https://habr.com/ru/post/487308/)
+* [generic массивы и new T()](https://ru.stackoverflow.com/questions/868406/generic-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B-%D0%B8-new-t)
