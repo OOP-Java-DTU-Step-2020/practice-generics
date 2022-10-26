@@ -84,7 +84,6 @@ class PairsTest {
 //        assertTrue(iterator.hasNext());          
 //        iterator.next();
 //        iterator.remove();
-//        assertTrue(true); // fail if we don't get this far.
 //        assertThrows(IllegalStateException.class, () -> iterator.remove());
 
     }
@@ -99,7 +98,6 @@ class PairsTest {
 //        Iterator<Pair<String, Integer>> iterator = pairs.iterator();
 //        assertTrue(iterator.hasNext());
 //        iterator.next();
-//        assertTrue(true); // fail if we don't get this far.
 //        assertThrows(NoSuchElementException.class, () -> iterator.next());
     }
 
